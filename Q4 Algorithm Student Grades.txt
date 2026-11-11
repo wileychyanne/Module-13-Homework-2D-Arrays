@@ -1,0 +1,21 @@
+Q4 Algorithm: Student Grades Management System
+
+1. Start.
+2. Import the Scanner class and create a Scanner object.
+3. Declare a 2D integer array named scores with 5 rows and 3 columns.
+4. Declare an integer variable highest and initialize it to 0.
+5. Use nested for loops to input the scores:
+   - The outer loop iterates through the 5 students.
+   - The inner loop iterates through the 3 courses.
+   - Prompt the user to enter each score and store it in the array.
+   - Check that each score is between 0 and 100.
+   - Update highest if a score is greater than the current highest score.
+6. Display all scores in a table using nested for loops, with students as rows and courses as columns.
+7. Calculate and display the average for each student:
+   - Use nested loops to calculate the sum of each student's 3 scores.
+   - Divide the sum by 3 to find the average.
+8. Calculate and display the average for each course:
+   - Use nested loops to calculate the sum of all 5 students' scores in each course.
+   - Divide the sum by 5 to find the average.
+9. Display the highest score recorded in the array.
+10. End.

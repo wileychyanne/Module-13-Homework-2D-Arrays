@@ -1,0 +1,17 @@
+Q2 Algorithm: Sales Performance Analysis
+
+1. Start
+2. Declare and initialize a 2D double array sales with 3 rows and 4 columns to store the weekly sales of 3 representatives.
+3. Declare a variable companyTotal and initialize it to 0.
+4. Declare variables highestSales and topRep to keep track of the highest total sales and the representative who achieved it.
+5. Use an outer for loop to go through each sales representative (row).
+6. Initialize rowTotal to 0 at the beginning of each row.
+7. Use an inner for loop to go through each week's sales (column).
+8. Add each week's sales to rowTotal.
+9. Display the total sales for the current representative.
+10. Add rowTotal to companyTotal.
+11. Compare rowTotal with highestSales. If rowTotal is greater, update highestSales and topRep.
+12. Repeat for all representatives.
+13. Display the company's total sales.
+14. Display the representative with the highest total sales.
+15. End

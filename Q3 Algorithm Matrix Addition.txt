@@ -1,0 +1,14 @@
+Q3 Algorithm: Matrix Addition
+
+1. Start.
+2. Declare and initialize two 3 × 3 integer arrays, matrixA and matrixB, with the given values.
+3. Declare a third 3 × 3 integer array named result to store the sums.
+4. Use a nested for loop to add the matrices:
+   - The outer loop iterates through each row.
+   - The inner loop iterates through each column.
+   - Add the corresponding elements of matrixA and matrixB.
+   - Store each sum in result[row][col].
+5. Display Matrix A using nested for loops.
+6. Display Matrix B using nested for loops.
+7. Display the resulting matrix using nested for loops.
+8. End.

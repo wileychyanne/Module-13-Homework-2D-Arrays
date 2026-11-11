@@ -1,0 +1,16 @@
+Q1 Algorithm: Classroom Seating Arrangement
+
+1. Start.
+2. Import the Scanner class.
+3. Declare a 2D String array seats with 4 rows and 5 columns.
+4. Create a Scanner object to accept user input.
+5. Use an outer for loop to go through each row.
+6. Use an inner for loop to go through each seat in the row.
+7. Ask the user to enter the student's name for each seat and store it in the array.
+8. Repeat steps until all 20 seats have been assigned.
+9. Use nested for loops to display the complete seating arrangement in 4 rows and 5 columns.
+10. Ask the user to enter a row number 1 – 4 and a column number 1 – 5.
+11. Check if the entered row and column numbers are within the valid range.
+12. If valid, subtract 1 from both numbers to convert them to array indexes and display the student's name at that position.
+13. Otherwise display an error message showing an invalid seat position.
+14. End.
